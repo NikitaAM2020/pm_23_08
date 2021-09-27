@@ -66,4 +66,4 @@ function task_watch() {
     exports.watch = task_watch
 
     //Запуск тасків за замовчуванням
-exports.build = series(task_html, task_sass, task_scripts, task_imgs, task_watch).
+exports.build = series(task_html, task_sass, task_scripts, task_imgs, task_watch)
